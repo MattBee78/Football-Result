@@ -1,0 +1,12 @@
+hometeam = input("What is the home team name?")
+hometeamscore = input("What was their score?")
+hometeamscore = int(hometeamscore)
+awayteam = input("What is the away team name?")
+awayteamscore = input("What was their score?")
+awayteamscore = int(awayteamscore)
+if hometeamscore > awayteamscore:
+    print("Congrats to", hometeam, "you have won!")
+elif hometeamscore < awayteamscore:
+    print("Congrats to", awayteam, "you have won!")
+else:
+    print("Good game between", hometeam, "and", awayteam, "the result is a draw")
